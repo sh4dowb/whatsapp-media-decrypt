@@ -9,5 +9,4 @@ Decrypted image (hopefully)
 
 $ file file.png
 file.png: PNG image data, 540 x 720, 8-bit/color RGB, non-interlaced
-
 ```
