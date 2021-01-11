@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from Crypto.Cipher import AES
 import hashlib
 import hmac
