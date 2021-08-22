@@ -106,7 +106,7 @@ if __name__ == "__main__":
         '--output',
         dest='output',
         default=None,
-        help='media key in Hex'
+        help='path for the plaintext'
     )
     (options, args) = parser.parse_args()
 
