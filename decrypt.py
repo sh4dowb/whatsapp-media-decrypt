@@ -74,7 +74,7 @@ def decrypt(fileName, mediaKey, mediaType, output):
     with open(output, 'wb') as f:
         f.write(data)
 
-    print("Decrypted (hopefully)")
+    return True
 
 
 if __name__ == "__main__":
@@ -120,4 +120,5 @@ if __name__ == "__main__":
               "Base64 or Hex.\nUsage: decrypt.py -h")
         sys.exit(1)
 
-    decrypt(fileName, mediaKey, options.mediaType, options.output)
+    if decrypt(fileName, mediaKey, options.mediaType, options.output):
+        print("Decrypted (hopefully)")
